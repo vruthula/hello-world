@@ -1,73 +1,74 @@
-# Welcome to your Lovable project
+Backend Team – Week 1 Tasks
 
-## Project info
+Internship Training – Week 1 Requirement Document
+Duration: Week 1 (Monday → Friday)
+Submission Deadline:Friday, [12-9-2025], 6:00 PM IST
+Teams:Backend (Flask/FastAPI with MongoDB)
+Mode of Submission: GitHub repository link shared via internship Slack/Email thread
+________________________________________
+🔹Task BE-101 – GitHub & Collaboration Setup
+•	Requirement:
+o	Create a GitHub repo backend-week1-{name}.
+o	Add README.md with setup instructions.
+o	Make at least 5 commits over the week.
+o	Pair programming: submit a Pull Request and review a peer’s code.
+•	Output: Repo with structured commits + merged PRs.
 
-**URL**: https://lovable.dev/projects/1eeaabef-98f1-4722-9509-351683ce88e7
+🔹Task BE-102 – Python Refresher
+•	Requirement:
+o	Write a script to:
+	Store student data as dicts in a list.
+	Sort by age.
+	Save results to JSON file.
+•	Output: Python script + generated JSON file.
 
-## How can I edit this code?
+🔹Task BE-103 – Flask Basics
+•	Requirement:
+o	Create Flask app with:
+	/hello → returns "Hello, Interns!".
+	/students → returns hardcoded JSON list of students.
+•	Output: Flask app running locally, tested via browser/Postman.
 
-There are several ways of editing your application.
+🔹Task BE-104 – FastAPI Basics
+•	Requirement:
+o	Create FastAPI app with:
+	/ping → returns { "message": "pong" }.
+	/students/{id} → returns dummy student details.
+	Run with uvicorn.
+	Test in Swagger UI /docs.
+•	Output: FastAPI app tested locally.
 
-**Use Lovable**
+🔹Task BE-105 – Mini Project: Student Directory API
+•	Requirement:
+o	Build a Student Directory API in FastAPI.
+o	Features:
+	/students → returns list of students (id, name, age, dept).
+	/students/{id} → returns student details by ID.
+	Data stored in a Python list (MongoDB starts Week 2).
+o	Must follow REST standards (GET methods only this week).
+•	Submission:
+o	Push project to GitHub repo backend-week1-student-directory-{name}.
+o	Include README.md with:
+	Setup steps (uvicorn main:app --reload).
+	Example API requests + responses.
+	Screenshot of Swagger UI.
+•	Output: Working API project with proper repo structure.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1eeaabef-98f1-4722-9509-351683ce88e7) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
 
-**Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+General Submission Guidelines
+1.	Push all code to GitHub before deadline.
+2.	Each repo must have:
+o	README.md (overview + setup + screenshots).
+o	Proper folder structure (/src, /static if frontend).
+o	Minimum 5 commits (no dumping final code at once).
+3.	Share GitHub repo link on Slack/email under Week 1 Submissions thread.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1eeaabef-98f1-4722-9509-351683ce88e7) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Expected Outcomes by End of Week 1
+•	Frontend interns: basics of HTML, CSS, JS, TS, Git + a functional To-Do List app.
+•	Backend interns: Python refresher, Flask + FastAPI basics, Git + a Student Directory API.
+•	Both teams: familiarity with Git workflows, commits, PRs, and repo documentation.
